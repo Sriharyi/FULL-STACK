@@ -1,0 +1,18 @@
+let cargoHold = ['oxygen tanks', 'space suits', 'parrot', 'instruction manual', 'meal packs', 'slinky', 'security blanket'];
+cargoHold[cargoHold.indexOf('slinky')]='space tether';
+console.log(cargoHold);
+console.log(cargoHold.pop());
+console.log(cargoHold);
+console.log(cargoHold.shift());
+console.log(cargoHold);
+cargoHold.unshift(1138);
+cargoHold.push('20 meters');
+console.log(cargoHold);
+console.log(`the Array elements are: ${cargoHold}`);
+cargoHold.splice(3,0,'keys');
+console.log(cargoHold);
+let indx = cargoHold.indexOf("instruction manual");
+cargoHold.splice(indx,1);
+console.log(cargoHold);
+cargoHold.splice(2,2,'cat','fob','string cheese');
+console.log(cargoHold);
